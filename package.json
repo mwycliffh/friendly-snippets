@@ -25,6 +25,10 @@
         "path": "./snippets/cpp.json"
       },
       {
+        "language": "cpp",
+        "path": "./snippets/wycliff/wycliff.json"
+      },
+      {
         "language": [
           "csharp",
           "cs"
