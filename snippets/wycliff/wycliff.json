@@ -7,6 +7,7 @@
       "Orange",
       "Green",
       "Blue",
+      "Brown",
       "Pink",
       "Purple"
     ],
@@ -15,12 +16,12 @@
   "Head of file commented out section": {
     "prefix": "wycliff_head_of_file",
     "body": [
-      "/*",
+      "/*   File Name\t\t\t${TM_FILENAME}",
       "*",
-      "*fname.\t\t\t${TM_FILENAME}-${TM_FILENAME_BASE}",
-      "*Date.\t\t\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "*    Date\t\t\t\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
       "*",
-      "*/"
+      "*/// Description:\t\t$1",
+      "\n"
     ],
     "description": "Placing this at the head of each file will save time in the long run"
   }
