@@ -17,8 +17,8 @@
     "body": [
       "/*",
       "*",
-      "*fname.\t\t\t${TM_FILENAME}-${TM_FILENAME_BASE}",
-      "*Date.\t\t\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "*File Name.\t\t\t\t${TM_FILENAME}",
+      "*Date.\t\t\t\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
       "*",
       "*/"
     ],
