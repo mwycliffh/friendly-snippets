@@ -18,8 +18,8 @@
     "body": [
       "/*   File Name.              .\t${TM_FILENAME}",
       "*    Date.                   .\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
-      "*    Last Update.            .\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
-      "*    Version.                .\t0.0.0",
+      "*    Update.                 .\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "*    Version.                .\t0.0.1",
       "*/// Description.            .\tTODO$1",
       "\n"
     ],
