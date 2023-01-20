@@ -32,11 +32,14 @@
       "*    Date.              ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
       "*    Update.            ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
       "*    Version.           0.0.1",
-      "*    Description.       TRun through a series of excersises that will",
+      "*    Description.       Perform a series of excersises that will",
       "*                       demonstrate the ability to perform various",
-      "*                       Neovim-related tasks using keyboard shortcuts.",
-      "*       We will be looking specifically at Tree Toggle <TT> ; Line Jump <LJ> ; ",
-      "*       Find-Files <FF> ; Live-Grep <LG> ; Other basic Vim commands.",
+      "*       Neovim-related tasks using keyboard shortcuts. We will be looking",
+      "*       We will be looking specifically at Tree Toggle <TT> ; Line Jump <LJ>;",
+      "*       Find-Files <FF>; Live-Grep <LG>; Some rudimentary Vim commands.",
+      "*                                                                  .",
+      "*    References:        https://github.com/nvim-tree/nvim-tree.lua",
+      "*                       https://docs.rockylinux.org/books/nvchad/nvchad_ui/nvimtree/",
       "*/\n"
     ],
     "description": "A more verbose version of the wycliff_head_of_file snippet"
