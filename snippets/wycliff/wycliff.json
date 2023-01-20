@@ -13,7 +13,7 @@
     ],
     "description": "Just a list of colors"
   },
-  "Head of file commented out section": {
+  "Head of file -- Commented out section": {
     "prefix": "wycliff_head_of_file",
     "body": [
       "/*   File Name.              .\t${TM_FILENAME}",
@@ -24,5 +24,21 @@
       "\n"
     ],
     "description": "Placing this at the head of each file will save time in the long run"
+  },
+  "Head of file -- VERBOSE variant": {
+    "prefix": "wycliff_verbose_hof",
+    "body": [
+      "/*   File Name.         ${TM_FILENAME}",
+      "*    Date.              ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "*    Update.            ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "*    Version.           0.0.1",
+      "*    Description.       TRun through a series of excersises that will",
+      "*                       demonstrate the ability to perform various",
+      "*                       Neovim-related tasks using keyboard shortcuts.",
+      "*       We will be looking specifically at Tree Toggle <TT> ; Line Jump <LJ> ; ",
+      "*       Find-Files <FF> ; Live-Grep <LG> ; Other basic Vim commands.",
+      "*/\n"
+    ],
+    "description": "A more verbose version of the wycliff_head_of_file snippet"
   }
 }
