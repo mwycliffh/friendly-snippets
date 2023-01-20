@@ -28,17 +28,17 @@
   "Head of file -- VERBOSE variant": {
     "prefix": "wycliff_verbose_hof",
     "body": [
-      "/*   File Name.         ${TM_FILENAME}",
-      "*    Date.              ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
-      "*    Update.            ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
-      "*    Version.           0.0.1",
-      "*    Description.       A series of exercises that demonstrate the ability to perform",
-      "*                       various Neovim-related tasks using keyboard shortcuts.",
-      "*                       We will explore Tree-Toggle <TT>; Line Jump <LJ>; Find-Files <FF>;",
-      "*                       Live-Grep <LG>; Some rudimentary Vim commands.",
-      "*                                                                     ",
-      "*    References:        https://github.com/nvim-tree/nvim-tree.lua",
-      "*                       https://docs.rockylinux.org/books/nvchad/nvchad_ui/nvimtree/",
+      "/* File Name.       ${TM_FILENAME}",
+      "*  Date.            ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "*  Update.          ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "*  Version.         0.0.1",
+      "*  Description.     A series of exercises that demonstrate the ability to",
+      "*                   execute various Neovim-related tasks using",
+      "*    keyboard shortcuts. We will explore Tree-Toggle <TT>; Line Jump <LJ>;",
+      "*    Find-Files <FF>; Live-Grep <LG>; Some rudimentary Vim commands.",
+      "*                                                                   ",
+      "*  References:   https://github.com/nvim-tree/nvim-tree.lua",
+      "*                https://docs.rockylinux.org/books/nvchad/nvchad_ui/nvimtree/",
       "*/\n"
     ],
     "description": "A more verbose version of the wycliff_head_of_file snippet"
