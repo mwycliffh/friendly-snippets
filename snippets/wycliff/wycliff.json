@@ -46,6 +46,7 @@
   "Head of file -- PYTHON Variant": {
     "prefix": "wycliff_python_hof",
     "body": [
+      "#!/usr/bin/env python3     ",
       "# File Name.           ${TM_FILENAME}",
       "# Date.                ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
       "# Update.              ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
