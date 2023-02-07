@@ -46,14 +46,14 @@
   "Head of file -- PYTHON Variant": {
     "prefix": "wycliff_python_hof",
     "body": [
-      "/* File Name.           ${TM_FILENAME}",
-      "*  Date.                ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
-      "*  Update.              ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
-      "*  Version.             0.0.1",
-      "*  Description.         todo...     ",
-      "*  Run Program.         $ python3   ${TM_FILENAME}   ",
-      "*  Associated Files.    other_file_one.py | other_file_two.py     ",
-      "*/\n"
+      "# File Name.           ${TM_FILENAME}",
+      "# Date.                ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "# Update.              ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "# Version.             0.0.1",
+      "# Description.         todo...     ",
+      "# Run Program.         $ python3   ${TM_FILENAME}   ",
+      "# Associated Files.    other_file_one.py | other_file_two.py     ",
+      "# */\n"
     ],
     "description": "Python variant of wycliff_head_of_file snippet"
   }
