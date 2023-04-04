@@ -25,7 +25,15 @@
         "path": "./snippets/cpp.json"
       },
       {
-        "language": "all",
+        "language": [
+          "plaintext",
+          "markdown",
+          "tex",
+          "rust",
+          "python",
+          "global",
+          "all"
+        ],
         "path": "./snippets/wycliff/wycliff.json"
       },
       {
