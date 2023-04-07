@@ -17,8 +17,8 @@
     "prefix": "wycliff_head_of_file",
     "body": [
       "/*   File Name.              .\t${TM_FILENAME}",
-      "*    Date.                   .\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
-      "*    Update.                 .\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "*    Date.                   .\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "*    Update.                 .\t${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
       "*    Version.                .\t0.0.1",
       "*/// Description.            .\tTODO$1",
       "\n"
@@ -48,10 +48,10 @@
     "body": [
       "#!/usr/bin/env python3     ",
       "# File Name.              ${TM_FILENAME}",
-      "# Date.                   ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
-      "# Update.                 ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}",
+      "# Date.                   ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "# Update.                 ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
       "# Version.                0.0.1",
-      "# Python Version.         3.9",
+      "# Python Version.         3.10.6",
       "# Run Program.            $ python3   ${TM_FILENAME}   ",
       "# Associated Files.       other_file_one.py | other_file_two.py     ",
       "# Generate dependencies:  $ pipreqs ./ ",
@@ -61,5 +61,31 @@
       "# */\n"
     ],
     "description": "Python variant of wycliff_head_of_file snippet"
+  },
+  "Head of file -- PYTHON Abbreviated": {
+    "prefix": "wycliff_python_abv",
+    "body": [
+      "#!/usr/bin/env python3     ",
+      "# File Name              ${TM_FILENAME}",
+      "# Date                   ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "# Update                 ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "# Version                0.0.1",
+      "# Python Version         3.10.6",
+      "# Description            TODO  \n"
+    ],
+    "description": "Abbreviated version of the wycliff_python_hof snippet"
+  },
+  "Head of file -- Lua version one": {
+    "prefix": "wycliff_lua_abv",
+    "body": [
+      "#!/usr/bin/env lua",
+      "-- File Name              ${TM_FILENAME}",
+      "-- Date                   ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "-- Update                 ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "-- Version                0.0.1",
+      "-- Lua Version            5.1.5",
+      "-- Description            TODO  \n"
+    ],
+    "description": "Lua commented out file header snippet"
   }
 }
