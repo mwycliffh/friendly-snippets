@@ -63,12 +63,11 @@
     "description": "Python variant of wycliff_head_of_file snippet"
   },
   "Head of file -- PYTHON Abbreviated": {
-    "prefix": "wycliff_python_abv",
+    "prefix": "wycliff_python_hof_abv",
     "body": [
-      "#!/usr/bin/env python3     ",
+      "#!/usr/bin/env python3",
       "# File Name              ${TM_FILENAME}",
       "# Date                   ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
-      "# Update                 ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
       "# Version                0.0.1",
       "# Python Version         3.10.6",
       "# Description            TODO  \n"
@@ -76,7 +75,7 @@
     "description": "Abbreviated version of the wycliff_python_hof snippet"
   },
   "Head of file -- Lua version one": {
-    "prefix": "wycliff_lua_abv",
+    "prefix": "wycliff_lua_hof_one",
     "body": [
       "#!/usr/bin/env lua",
       "-- File Name              ${TM_FILENAME}",
