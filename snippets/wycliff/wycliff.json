@@ -86,5 +86,18 @@
       "-- Description            TODO  \n"
     ],
     "description": "Lua commented out file header snippet"
+  },
+  "Template -- Commented out section": {
+    "prefix": "wycbrk",
+    "body": [
+      "// WYC BRK < NAME >  < FUNC / STRUCT >  < PURPOSE >", 
+      "// 01 - -- -- -- -- >>>>> >>>>> -- -- -- -- -- -- -- ", 
+      "// S0 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ", 
+      "// S1 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ", 
+      "// S2 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ", 
+      "// S3 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ", 
+      "// 00 - -- -- -- -- <<<<< <<<<< -- -- -- -- -- -- -- \n"
+    ],
+    "description": "Commented out section used to boost productivity"
   }
 }
