@@ -17,6 +17,12 @@
         "path": "./snippets/global.json"
       },
       {
+        "language": [
+          "license"
+        ],
+        "path": "./snippets/license.json"
+      },
+      {
         "language": "c",
         "path": "./snippets/c.json"
       },
@@ -61,7 +67,10 @@
         "path": "./snippets/elixir.json"
       },
       {
-        "language": "eelixir",
+        "language": [
+          "eelixir",
+          "heex"
+        ],
         "path": "./snippets/eelixir.json"
       },
       {
@@ -87,6 +96,10 @@
       {
         "language": "fennel",
         "path": "./snippets/fennel.json"
+      },
+      {
+        "language": "fsh",
+        "path": "./snippets/fsh.json"
       },
       {
         "language": "php",
@@ -223,6 +236,10 @@
         "path": "./snippets/javascript/javascript.json"
       },
       {
+        "language": "jsdoc",
+        "path": "./snippets/javascript/jsdoc.json"
+      },
+      {
         "language": [
           "typescript",
           "typescriptreact"
@@ -270,7 +287,11 @@
       },
       {
         "language": "vue",
-        "path": "./snippets/frameworks/vue/pug.json"
+        "path": "./snippets/frameworks/vue/nuxt_html.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/frameworks/vue/nuxt_js_ts.json"
       },
       {
         "language": "vue",
@@ -439,6 +460,10 @@
       {
         "language": "verilog",
         "path": "./snippets/verilog.json"
+      },
+      {
+        "language": "vhdl",
+        "path": "./snippets/vhdl.json"
       },
       {
         "language": "dockerfile",
