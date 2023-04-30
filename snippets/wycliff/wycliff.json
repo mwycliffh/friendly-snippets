@@ -90,7 +90,7 @@
   "Wyc Brick -- Generic Code Brick Template -- Productivity Booster": {
     "prefix": "wycbrk",
     "body": [
-      "// WYC BRK < NAME >  < FUNC / STRUCT >  < PURPOSE > ", 
+      "// WYC BRK < NAME >  < FUNC / STRUCT >  < PURPOSE >", 
       "// 01 - -- -- -- -- >>>>> >>>>> -- -- -- -- -- -- -- ", 
       "// S0 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ", 
       "// S1 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ", 
