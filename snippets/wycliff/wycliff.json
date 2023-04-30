@@ -87,7 +87,7 @@
     ],
     "description": "Lua commented out file header snippet"
   },
-  "Wyc Brick -- Generic Code Brick Template -- Productivity Booster": {
+  "Template -- Commented out section": {
     "prefix": "wycbrk",
     "body": [
       "// WYC BRK < NAME >  < FUNC / STRUCT >  < PURPOSE >", 
@@ -96,8 +96,8 @@
       "// S1 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ", 
       "// S2 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ", 
       "// S3 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- ", 
-      "// 00 - -- -- -- -- <<<<< <<<<< -- -- -- -- -- -- -- \n", 
+      "// 00 - -- -- -- -- <<<<< <<<<< -- -- -- -- -- -- -- \n"
     ],
-    "description": "Commented code template boosts productivity"
+    "description": "Commented out section used to boost productivity"
   }
 }
