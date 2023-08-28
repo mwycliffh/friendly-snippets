@@ -102,5 +102,36 @@
       "// 00 - -- -- -- -- <<<<< <<<<< -- -- -- -- -- -- -\n"
     ],
     "description": "Commented out section used to boost productivity"
+  },
+
+  "Template -- Rust Struct": {
+    "prefix": "wyc-rust-struct",
+    "body": [
+      "#[derive(Debug, Clone)]                                  ",
+      "pub struct ${1:FoodBasket} { // START {1:FoodBasket}     ",
+      "    pub idn: i32,       // . .                           ",
+      "    pub apples: u32,                                     ",
+      "    pub banana_bunches: Vec<i16>,                        ",
+      "    pub carrots: u128,                                   ",
+      "}                                                        ",
+      "                                                         ",
+      "impl ${1:FoodBasket} {                                   ",
+      "    pub fn new() -> ${1:FoodBasket}                      ",
+      "    {                                                    ",
+      "        let mut ${2:food_basket} = ${1:FoodBasket} {     ",
+      "            idn: 0,                                      ",
+      "            apples: 3,                                   ",
+      "            banana_bunches: Vec::<i16>::new(),           ",
+      "            carrots: u128,                               ",
+      "        };                                               ",
+      "        ${2:food_basket}                                 ",
+      "    }                                                    ",
+      "} // END {1:FoodBasket} IMPLEMENTATION                   ",
+      "                                                         ",
+      "     let mut ${2:food_basket} = ${1:FoodBasket}::new();  ",
+      "     ${2:food_basket}: ${1:FoodBasket}::new();           ",
+      "     let mut ${2:food_basket}: Box<${1:FoodBasket}> = Box::new(${2:food_basket});\n"
+    ],
+    "description": "Rust Structure Template Food Basket"
   }
 }
