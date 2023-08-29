@@ -196,7 +196,11 @@
       "    }                                                                 ",
       "                                                                      ",
       "} // END ${1:CoffeeShop} IMPLEMENTATION                               ",
-      "                                                                    \n" 
+      "                                                                      ",
+      "     let mut ${2:coffee_shop} = ${1:CoffeeShop}::new();",
+      "     ${2:coffee_shop}: ${1:CoffeeShop}::new();",
+      "     let mut ${2:coffee_shop}: Box<${1:CoffeeShop}> = Box::new();",
+      "                                                                \n" 
     ],
     "description": "Rust CoffeeShop Structure Template"
   }
