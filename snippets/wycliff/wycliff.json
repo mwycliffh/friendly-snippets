@@ -74,6 +74,17 @@
     ],
     "description": "Abbreviated version of the wycliff_python_hof snippet"
   },
+  "Head of file -- Zig Lang": {
+    "prefix": "wycliff_zig_hof",
+    "body": [
+      "// File Name          ${TM_FILENAME}",
+      "// Date               ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "// Update             ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+      "// Version            0.0.1",
+      "// Description        TODO  \n"
+    ],
+    "description": "File header for foo.zig files"
+  },
   "Head of file -- Lua version one": {
     "prefix": "wycliff_lua_hof_one",
     "body": [
