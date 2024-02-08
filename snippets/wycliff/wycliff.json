@@ -105,6 +105,25 @@
     ],
 "description": "Lua commented out file header snippet"
   },
+"Template -- Commented out section":
+  {
+"prefix": "wycbrk"
+    ,
+"body":
+    [
+      "// < ${1:Name} >  < ${2:Func/Struct} >",
+      "// < ${3:Purpose-A} >",
+      "// < ${4:Purpose-B} >",
+      "// < ${5:Purpose-C} >",
+      "// 01 - -- -- -- -- >>>>> >>>>> -- -- -- -- -- -- -",
+      "// S0 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -",
+      "// S1 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -",
+      "// S2 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -",
+      "// SN - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -",
+      "// 00 - -- -- -- -- <<<<< <<<<< -- -- -- -- -- -- -\n"
+    ],
+"description": "Commented out section used to boost productivity"
+  },
 
 "Wycliff Java Color Block Developer Tool -- version one":
   {
@@ -155,23 +174,110 @@
 "description": "Developer Tool : Adds colored print statements to a java program"
   },
 
-"Template -- Commented out section":
+"Template -- Rust Struct":
   {
-"prefix": "wycbrk"
+"prefix": "wyc-rust-struct"
     ,
 "body":
     [
-      "// < ${1:Name} >  < ${2:Func/Struct} >",
-      "// < ${3:Purpose-A} >",
-      "// < ${4:Purpose-B} >",
-      "// < ${5:Purpose-C} >",
-      "// 01 - -- -- -- -- >>>>> >>>>> -- -- -- -- -- -- -",
-      "// S0 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -",
-      "// S1 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -",
-      "// S2 - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -",
-      "// SN - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -",
-      "// 00 - -- -- -- -- <<<<< <<<<< -- -- -- -- -- -- -\n"
+      "#[derive(Debug, Clone)]                                  ",
+      "pub struct ${1:FoodBasket} { // START ${1:FoodBasket}    ",
+      "    pub idn: i32,                                        ",
+      "    pub apples: u32,                                     ",
+      "    pub banana_bunches: Vec<i16>,                        ",
+      "    pub carrots: u128,                                   ",
+      "    pub ${3:melons}: u8                                  ",
+      "}                                                        ",
+      "                                                         ",
+      "impl ${1:FoodBasket} {                                   ",
+      "    pub fn new() -> ${1:FoodBasket}                      ",
+      "    {                                                    ",
+      "        let mut ${2:food_basket} = ${1:FoodBasket} {     ",
+      "            idn: 0,                                      ",
+      "            apples: 3,                                   ",
+      "            banana_bunches: Vec::<i16>::new(),           ",
+      "            carrots: 12,                                 ",
+      "            ${3:melons}: 5                               ",
+      "        };                                               ",
+      "        ${2:food_basket}                                 ",
+      "    }                                                    ",
+      "} // END ${1:FoodBasket} IMPLEMENTATION                  ",
+      "                                                         ",
+      "     let mut ${2:food_basket} = ${1:FoodBasket}::new();  ",
+      "     ${2:food_basket}: ${1:FoodBasket}::new();           ",
+      "     let mut ${2:food_basket}: Box<${1:FoodBasket}> = Box::new(${2:food_basket});",
+      "                                                       \n"
     ],
-"description": "Commented out section used to boost productivity"
+"description": "Rust Structure Template Food Basket"
+  },
+
+"Template -- Rust Coffee Shop Struct":
+  {
+"prefix": "wyc-rust-coffee-shop-struct"
+    ,
+"body":
+    [
+      "#[derive(Debug, Clone)]                                               ",
+      "pub struct ${1:CoffeeShop} {                                          ",
+      "    pub VXO: Vec<i16>,                                                ",
+      "    pub VYO: Vec<i16>,                                                ",
+      "    pub color: Color,                                                 ",
+      "}                                                                     ",
+      "                                                                      ",
+      "impl ${1:CoffeeShop} {                                                ",
+      "    pub fn null() -> ${1:CoffeeShop} {                                ",
+      "        return ${1:CoffeeShop} {                                      ",
+      "          VXO: Vec::new(),                                            ",
+      "          VYO: Vec::new(),                                            ",
+      "          color: Color::WHITE                                         ",
+      "        };                                                            ",
+      "    }                                                                 ",
+      "                                                                      ",
+      "    pub fn new(                                                       ",
+      "        shape_type_2d: ShapeType2d,                                   ",
+      "        color: Color,                                                 ",
+      "        dimensions: (u32, u32),                                       ",
+      "        centerpoint: Vec::<i16>,                                      ",
+      "        ) -> ${1:CoffeeShop} {                                        ",
+      "        let mut ${2:coffee_shop} = ${1:CoffeeShop} {                  ",
+      "            VXO: Vec::<i16>::new(),                                   ",
+      "            VYO: Vec::<i16>::new(),                                   ",
+      "            color: Color::WHITE,                                      ",
+      "        };                                                            ",
+      "        let mut m = dimensions.0 as i16;                              ",
+      "        if shape_type_2d == ShapeType2d::TRIANGLE                     ",
+      "        {                                                             ",
+      "          ${2:coffee_shop} = ${1:CoffeeShop}::build_alpha(m);         ",
+      "          ${2:coffee_shop} = ${1:CoffeeShop}::build_bravo(            ",
+      "            ${2:coffee_shop}.clone(),                                 ",
+      "            centerpoint);                                             ",
+      "          );                                                          ",
+      "          ${2:coffee_shop}.color = color;                             ",
+      "        }                                                             ",
+      "        ${2:coffee_shop}                                              ",
+      "    }                                                                 ",
+      "                                                                      ",
+      "    pub fn build_alpha(dimension_alpha: i16) -> ${1:CoffeeShop} {     ",
+      "            let mut ${2:coffee_shop} = ${1:CoffeeShop}::null();       ",
+      "            return ${2:coffee_shop};                                  ",
+      "    }                                                                 ",
+      "                                                                      ",
+      "    pub fn build_bravo(                                               ",
+      "      mut ${2:coffee_shop}: ${1:CoffeeShop},                          ",
+      "      centerpoint: Vec<i16>                                           ",
+      "        ) -> {1:CoffeeShop} {                                         ",
+      "            let mut new_${2:coffee_shop} = {1:CoffeeShop}::null();    ",
+      "            *new_{2:coffee_shop} = {1:CoffeeShop}::build_alpha(self.clone())",
+      "            return new_{2:coffee_shop}                                ",
+      "    }                                                                 ",
+      "                                                                      ",
+      "} // END ${1:CoffeeShop} IMPLEMENTATION                               ",
+      "                                                                      ",
+      "     let mut ${2:coffee_shop} = ${1:CoffeeShop}::new();",
+      "     ${2:coffee_shop}: ${1:CoffeeShop}::new();",
+      "     let mut ${2:coffee_shop}: Box<${1:CoffeeShop}> = Box::new();",
+      "                                                                \n"
+    ],
+"description": "Rust CoffeeShop Structure Template"
   }
 }
