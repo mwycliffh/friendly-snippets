@@ -1,7 +1,7 @@
 {
     "Wycliff Java Color Block Developer Tool -- version one":
     {
-        "prefix": "wyc-java-kolor-tool-v1" ,
+        "prefix": "wyc-java-kolor-tool-v3" ,
         "body":
         [
             "\n",
@@ -15,11 +15,8 @@
             "	String blue = \"\\033[0;34m\";",
             "	String cyan = \"\\033[0;36m\";",
             "	String purple = \"\\033[0;35m\";",
-            "\n",
             "	String filler = \" = = = = = = = = = = = = = = = = = = = = = = = = = = =\";",
-            "\n",
             "	String kolor1 = white;",
-            "\n",
             "	if (color == \"green\" ) {",
             "		kolor1 = green;",
             "	} else if (color == \"red\") {",
@@ -35,12 +32,10 @@
             "	} else if (color == \"orange\") {",
             "		kolor1 = orange;",
             "	} else { kolor1 = white; }",
-            "\n",
             "  // coloredPrint(get, \"green\");",
             "  // coloredPrint(\"NULL RESPONSE\", \"red\");",
-            "	System.out.print( \"\n\" + kolor1 + filler + \"\n\" + msg + \"\n\" + filler + normal );",
+            "	System.out.print( \"\\n\" + kolor1 + filler + \"\\n\" + msg + \"\\n\" + filler + normal );",
             "}",
-            "\n",
             "\n"
         ],
         "description": "Developer Tool : Adds colored print statements to a java program"

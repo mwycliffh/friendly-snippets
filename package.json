@@ -45,6 +45,10 @@
               "path": "./snippets/wycliff/wycliff-java.json"
             },
             {
+              "language": [ "all" ],
+              "path": "./snippets/wycliff/wycliff-color.json"
+            },
+            {
                 "language": ["csharp", "cs"],
                 "path": "./snippets/csharp/csharp.json"
             },
