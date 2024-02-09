@@ -1,0 +1,48 @@
+{
+    "Wycliff Java Color Block Developer Tool -- version one":
+    {
+        "prefix": "wyc-java-kolor-tool-v1" ,
+        "body":
+        [
+            "\n",
+            "public static void coloredPrint(String msg, String color) {",
+            "	String normal = \"\\033[0;37m\";",
+            "	String white = \"\\033[0;37m\";",
+            "	String orange = \"\\033[38;2;255;125;001m\";",
+            "	String green = \"\\033[0;32m\";",
+            "	String red = \"\\033[0;31m\";",
+            "	String yellow = \"\\033[0;33m\";",
+            "	String blue = \"\\033[0;34m\";",
+            "	String cyan = \"\\033[0;36m\";",
+            "	String purple = \"\\033[0;35m\";",
+            "\n",
+            "	String filler = \" = = = = = = = = = = = = = = = = = = = = = = = = = = =\";",
+            "\n",
+            "	String kolor1 = white;",
+            "\n",
+            "	if (color == \"green\" ) {",
+            "		kolor1 = green;",
+            "	} else if (color == \"red\") {",
+            "		kolor1 = red;",
+            "	} else if (color == \"yellow\") {",
+            "		kolor1 = yellow;",
+            "	} else if (color == \"blue\") {",
+            "		kolor1 = blue;",
+            "	} else if (color == \"cyan\") {",
+            "		kolor1 = cyan;",
+            "	} else if (color == \"purple\") {",
+            "		kolor1 = purple;",
+            "	} else if (color == \"orange\") {",
+            "		kolor1 = orange;",
+            "	} else { kolor1 = white; }",
+            "\n",
+            "  // coloredPrint(get, \"green\");",
+            "  // coloredPrint(\"NULL RESPONSE\", \"red\");",
+            "	System.out.print( \"\n\" + kolor1 + filler + \"\n\" + msg + \"\n\" + filler + normal );",
+            "}",
+            "\n",
+            "\n"
+        ],
+        "description": "Developer Tool : Adds colored print statements to a java program"
+    }
+}
