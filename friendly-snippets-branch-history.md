@@ -1,7 +1,7 @@
-/*   File Name.              .  friendly-snippets-branch-history.md
-*    Date.                   .  2023-02-07 17:38
-*    Update.                 .  2023-02-07 17:38
-*    Version.                .  0.0.1
+File Name.           friendly-snippets-branch-history.md
+Date.                2023-02-07 17:38
+Update.              2023-02-07 17:38
+Version.             0.0.1
 
 remote: Enumerating objects: 112, done.
 remote: Counting objects: 100% (103/103), done.
